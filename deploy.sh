@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Configuration
-host=$3
 path_dist=$1
 path_remote=$2
+host=$3
 
 # Delete all files
 echo "Remove all files from server"
