@@ -3,11 +3,14 @@
 $black: #000;
 $white: #fff;
 
+$blue: #03f;
+
 // fonts
 
-$font-family-regular: 'Roboto Mono', monospace;
+$font-family: 'BergenText-Regular', sans-serif;
+$font-weight: 400;
+$font-size: 16px;
 
-$font-weight-regular: 400;
-$font-weight-heavy: 700;
+// line heights
 
-$font-size-regular: 16px;
+$line-height: 1.3;

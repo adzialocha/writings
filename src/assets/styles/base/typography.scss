@@ -4,9 +4,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: $font-weight-heavy;
+  font-weight: $font-weight;
+
+  overflow-wrap: break-word;
 }
 
 strong {
-  font-weight: $font-weight-heavy;
+  font-weight: $font-weight;
 }

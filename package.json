@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run prepare && static-generator build -s ./src -o ./dist",
     "clear": "rimraf ./dist",
-    "deploy": "./deploy.sh ./dist writings.andreasdzialocha.com web",
+    "deploy": "deploy ./dist writings.andreasdzialocha.com web",
     "prepare": "mkdir -p ./dist",
     "serve": "serve",
     "start": "npm run prepare && npm run serve",
@@ -24,5 +24,9 @@
     "serve": "^10.1.2",
     "static-generator": "^0.2.5",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "highlight.js": "^9.14.2",
+    "normalize.css": "^8.0.1"
   }
 }
