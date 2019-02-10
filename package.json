@@ -22,7 +22,7 @@
   "devDependencies": {
     "rimraf": "^2.6.3",
     "serve": "^10.1.2",
-    "static-generator": "^0.2.5",
+    "static-generator": "^0.2.6",
     "watch": "^1.0.2"
   },
   "dependencies": {
